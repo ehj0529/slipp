@@ -2,6 +2,23 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.slipp</groupId>
   <artifactId>qna</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>war</packaging>
+  
+  <build>
+  	<finalName>qna</finalName>
+
+  </build>
+  
+  
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>org.apache.maven.plugins</groupId>
+  		<artifactId>maven-compiler-plugin</artifactId>
+  		<version>3.8.1</version>
+  		<type>maven-plugin</type>
+  	</dependency>
+  </dependencies>
+  
 </project>
